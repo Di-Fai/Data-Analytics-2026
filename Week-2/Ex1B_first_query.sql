@@ -1,0 +1,3 @@
+/*
+Sakila is a database created for learnig and practice on how databases are structured and also to practice writing SQL quaries 
+*/
