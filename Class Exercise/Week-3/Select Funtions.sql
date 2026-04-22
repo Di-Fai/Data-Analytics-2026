@@ -89,4 +89,50 @@ SELECT CompanyName
 FROM Customers
 WHERE CompanyName LIKE 'A%';
 
+-- -------------------------------------------------------------------------------------
+USE northwind;
+
+
+-- EX 25
+SELECT OrderID, CustomerID, OrderDate
+FROM orders
+WHERE OrderDate = '1997-01-01';
+
+-- EX 26
+SELECT OrderID, OrderDate
+FROM orders
+WHERE YEAR(orderDate) = 1997
+AND MONTH(OrderDate) = 6;
+
+-- EX 27
+
+SELECT ProductName, UnitPrice
+FROM Products
+ORDER BY UnitPrice DESC;
+
+-- EX 28
+
+SELECT CompanyName, Country
+FROM Customers
+ORDER BY Country ASC, CompanyName ASC;
+
+ -- EX 29
+ 
+ SELECT ProductName, UnitPrice
+ FROM Products
+ ORDER BY UnitPrice DESC
+ LIMIT 5;
+ 
+ -- EX 30
+ 
+ SELECT ProductName, UnitPrice
+ FROM Products
+ ORDER BY UnitPrice DESC
+ LIMIT 5, 5;
+ 
+ -- EX 36
+ 
+ Select ProductName, UnitPrice AS 'Original Price',
+ UnitPrice - (UnitPrice * 0.10) AS '10% Discount Price'
+ FROM Products;
  
