@@ -181,3 +181,20 @@ GROUP BY c.CompanyName
 ORDER BY 'Order Count' ASC
 LIMIT 5;
 
+
+-- ----------------------------------------------
+SELECT COUNT(*) AS 'Total Orders'
+FROM orders 
+LIMIT 1;
+
+
+-- --------------------------------------------
+SELECT
+SUM(Freight) AS Total_Freight,
+AVG(Freight) AS Average_Freight,
+MIN(Freight) AS Smallest_Freight,
+MAX(Freight) AS Largest_Freight
+FROM orders
+LIMIT 1;
+
+
