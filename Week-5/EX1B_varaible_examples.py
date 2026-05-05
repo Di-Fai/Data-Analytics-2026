@@ -13,3 +13,5 @@ auto_policy_number = "AUTO987654"  # I used text because policy numbers can incl
 my_name = "Dimitri Nji"  # I used my full name as one text value.
 
 hometown = "New Castle, Delaware"  # I used city and state together, but they could be separated into city and state variables.
+
+
