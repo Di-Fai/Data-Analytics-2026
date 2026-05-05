@@ -17,5 +17,35 @@ hometown = "Douala, Litoral"  # I used city and region together, but they could 
 
 
 
+'''
+a) What is the full list of reserved words that can’t be used for variable names?
+
+    False, def, if, raise, None, del, import, return, True, elif, in, try, and,else, is, while, as,except, lambda, with, assert
+    finally, nonlocal, yield, break, for, not, class, form, or.
+
+
+b) Definitions of 5 reserved words:
+    -def:    Used to define a function in Python. Functions allow you to group code into reusable blocks that perform a specific task.
+
+
+    -if:     Used to create a conditional statement. It allows the program to make decisions and run code only when a condition is True.
+
+
+    -for:    Used to create a loop that iterates over a sequence (like a list or string). It repeats a block of code for each item in the sequence.
+
+
+    -return: Used inside a function to send a value back to where the function was called. It ends the function execution and gives back the result.
+
+    
+    -class:  Used to define a blueprint for creating objects. It is part of object-oriented programming and allows you to group data and functions together.
+
+
+'''
+
+
+
+
+
+
 
 
