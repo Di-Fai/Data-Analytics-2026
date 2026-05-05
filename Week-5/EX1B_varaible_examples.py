@@ -16,13 +16,15 @@ hometown = "Douala, Litoral"  # I used city and region together, but they could 
 
 
 
+import keyword
+print(keyword.kwlist)
 
 '''
 a) What is the full list of reserved words that can’t be used for variable names?
 
-    False, def, if, raise, None, del, import, return, True, elif, in, try, and,else, is, while, as,except, lambda, with, assert
-    finally, nonlocal, yield, break, for, not, class, form, or.
-
+    'False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del',
+    'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not',
+    'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield'
 
 b) Definitions of 5 reserved words:
     -def:    Used to define a function in Python. Functions allow you to group code into reusable blocks that perform a specific task.
@@ -36,7 +38,7 @@ b) Definitions of 5 reserved words:
 
     -return: Used inside a function to send a value back to where the function was called. It ends the function execution and gives back the result.
 
-    
+
     -class:  Used to define a blueprint for creating objects. It is part of object-oriented programming and allows you to group data and functions together.
 
 
