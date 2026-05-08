@@ -1,6 +1,6 @@
 
 # Ask the user to enter temperature in Celsius
-celsius = float(input("Enter temperature in Celsius: "))
+celsius = eval(input("Enter temperature in Celsius: "))
 
 # Convert Celsius to Fahrenheit
 fahrenheit = (9 / 5) * celsius + 32
