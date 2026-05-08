@@ -31,7 +31,7 @@ else:
     major_name = "<unknown>"
     department_office = "<unknown>"
 
-print()
+print('-----------------------------------')
 print("Student Name:", student_name)
 print("Major Code:", student_major)
 print("Major Name:", major_name)
