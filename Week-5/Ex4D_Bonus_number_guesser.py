@@ -49,10 +49,11 @@ while True:
 
         break
 
-    '''
-    This program creates a guessing game where the computer picks a number between 1 and 20.
-    The user keeps guessing until they get the correct answer. 
-    If the guess is too low, the program says “Higher.” 
-    If the guess is too high, it says “Lower.” The program also counts the guesses, 
-    saves all guessed numbers, and handles mistakes if the user types something that is not a number.'''
+'''
+This program creates a guessing game where the computer picks a number between 1 and 20.
+The user keeps guessing until they get the correct answer. 
+If the guess is too low, the program says “Higher.” 
+If the guess is too high, it says “Lower.” The program also counts the guesses, 
+saves all guessed numbers, and handles mistakes if the user types something that is not a number.
+'''
     
