@@ -1,0 +1,26 @@
+1. What conclusion can you reach about the responses to this question?
+    -Most students seem to understand the importance of preparing for class, but their technology setups and note-taking methods vary. Many students also have questions about support, course content, and assignments.
+
+2. Is the default summary or visualization helpful? How could it be improved?
+    -The default summary is helpful for multiple-choice questions, but less useful for written responses. It could be improved by grouping similar answers into themes or clearer categories.
+
+3. For questions with an “Other” option, where can you find the actual text of those responses? Do you notice anything that might be tricky about analyzing these?
+    -The actual text can be found in the spreadsheet responses. What makes it tricky is that people may answer in different ways that mean similar things, which can make the data harder to group accurately.
+
+4. For questions calling for a written response, what challenges do you notice about finding trends or patterns in the answers provided?
+    -The main challenge is that written responses are not standardized. Students may use different wording for the same idea, so it takes more time to identify patterns and organize the results.
+
+5. Now that you can see the responses, how might you recommend rephrasing this question or the response options in a future survey?
+    -I would recommend using clearer response choices and adding categories where possible. For written questions, it may help to give students answer options plus an optional short-response box.
+
+6. Is there anything that surprised you about the survey responses?
+    -What surprised me most is that many students seem serious about preparing for class, but they also have different levels of equipment and support. It also stood out that several students already have important questions about the course.
+
+7. Looking at the responses to questions 1 and 5, are there any ideas you might try to include in your morning routine, or any questions that you are also curious about?
+    -Some ideas I could include in my morning routine are logging in early, reviewing notes, and checking that my setup is ready before class. I am also curious about tutoring, Python and SQL, and how the capstones will work.
+
+8. Pretend you are the instructor. Is there anything you can learn from this survey to help in how you approach teaching this class?
+    -Yes. The instructor can learn that students need clear expectations, support resources, and flexibility because not everyone has the same setup. The survey also shows that students want practical guidance and clarity about the course.
+
+9. Again, pretend you are the instructor. Do you think it was helpful or not helpful to make this survey anonymous? Why or why not?
+    -I think it was helpful to make the survey anonymous because students are more likely to answer honestly. However, it can also make it harder for the instructor to follow up directly with students who may need support.
