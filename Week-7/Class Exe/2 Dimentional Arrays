@@ -1,0 +1,20 @@
+import numpy as np
+
+# Create a two-dimensional array
+arrA = np.array([
+    [11, 12, 13],
+    [14, 15, 16]
+])
+
+# Print the full array
+print(arrA)
+
+# Loop through the first dimension
+for x in arrA:
+    print(x * 2)
+
+# Loop through the second dimension
+for x in arrA:
+    for y in x:
+        loop_result = y * 2
+        print(loop_result)
