@@ -1,0 +1,63 @@
+Question 5:
+
+A. This report is about tracking a team’s sales/revenue performance. It shows revenue by month, revenue compared to budget, revenue by region and state, number of customers, number of products, and gross margin percentage. It helps compare how different team members and regions are performing.
+
+B. Revenue Var % here, means Revenue Variance Percentage. It shows how much revenue is above or below the budget or target. A positive percentage means revenue is above budget, and a negative percentage means revenue is below budget.
+
+RevenueTY means Revenue This Year. It represents the total revenue made during the current year or selected time period.
+
+C. When I click Alaska, the report filters or highlights data related to Alaska. The other visuals on the page update to show information connected to Alaska, such as revenue, customers, products, and performance for that state. Clicking Alaska again restores the original view.
+
+D. When I click a name, the report filters to show data for that specific team member. The numbers at the top, such as customers and products, change based on the person selected. This makes it easier to compare how many customers and products each team member is responsible for.
+
+E. When I click a region like NORTH, the report focuses on that region. The other visuals update or highlight the data connected to the NORTH region, such as revenue by state and monthly performance. Clicking it again brings back the full report view.
+
+F. I prefer the Treemap because it makes it easier to compare revenue across regions by looking at the size of each rectangle. The bigger rectangles clearly show which regions have the most revenue. A pie chart is useful too, but it can be harder to compare smaller sections when there are multiple regions.
+
+
+
+
+Question 6:
+
+A. The Data pane shows the different tables that are part of the Power BI report. Examples include tables like Customer, Date, Executive, Industry, Product, Scenario, and State. Each table holds a different type of data used to build the report visuals.
+
+
+B. The Data pane shows the different tables that are part of the Power BI report. Examples include tables like Customer, Date, Executive, Industry, Product, Scenario, and State. Each table holds a different type of data used to build the report visuals.
+
+
+C. The icons help show what type of field each column is. For example, some icons show that a field is text, a number, a date, or a hierarchy. This helps Power BI understand how the data should be used in visuals.
+
+
+D. The crossed-off eye icon means that the field is hidden from the report view. The data is still in the model, but it does not appear as a field that users can easily drag into visuals. It is usually hidden to keep the Data pane cleaner and avoid confusion.
+
+
+
+Question 8:
+
+
+A. The Fact table appears to be at the center of the model.
+
+B. Yes. The tables around the Fact table connect to it using relationship lines. Some of those outer tables may also connect to other related tables, but the main connection is through the central Fact table.
+
+C. The layout looks like a star shape or star schema, because one main table is in the middle and other tables branch out from it.
+
+D.The center Fact table usually contains the main numbers or measurements, such as revenue, sales, profit, cost, or other values used for calculations. The outer tables usually contain descriptive information, like customer names, dates, products, states, industries, and executives.
+
+
+Question 9:
+
+
+A. When I go back to Report View, I can see that the report has different pages/tabs, such as Team Scorecard, Industry Margin Analysis, and Executive Scorecard.
+
+On the Team Scorecard page, the report visualizes team performance, revenue, revenue compared to budget, customers, products, gross margin percentage, revenue by region, and revenue by state.
+
+When I click on different parts of the visuals, such as a state, region, team member, or chart section, the other visuals update or highlight related information. This shows that the visuals are connected and can be used to filter the report interactively.
+
+
+
+
+
+
+
+
+
