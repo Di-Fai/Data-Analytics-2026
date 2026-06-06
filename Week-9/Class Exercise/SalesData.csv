@@ -1,0 +1,25 @@
+Month,Region,Product,Category,Units Sold,Revenue,Discount %,Latitude,Longitude,City
+Jan,North,Widget Pro,Electronics,1240,62000,5,40.71,-74.01,New York
+Jan,South,Gadget X,Electronics,856,42800,8,33.75,-84.39,Atlanta
+Jan,East,Cable Set,Accessories,3100,15500,2,38.90,-77.04,Washington DC
+Jan,West,Monitor 27,Electronics,340,88400,10,34.05,-118.24,Los Angeles
+Feb,North,Widget Pro,Electronics,1380,69000,5,40.71,-74.01,New York
+Feb,South,Keyboard,Accessories,1890,28350,3,29.76,-95.37,Houston
+Feb,East,Gadget X,Electronics,920,46000,7,39.95,-75.17,Philadelphia
+Feb,West,Cable Set,Accessories,2800,14000,2,37.77,-122.42,San Francisco
+Mar,North,Monitor 27,Electronics,410,106600,9,41.88,-87.63,Chicago
+Mar,South,Widget Pro,Electronics,1100,55000,6,30.33,-81.66,Jacksonville
+Mar,East,Keyboard,Accessories,2100,31500,3,42.36,-71.06,Boston
+Mar,West,Gadget X,Electronics,740,37000,8,47.61,-122.33,Seattle
+Apr,North,Cable Set,Accessories,3400,17000,1,44.98,-93.27,Minneapolis
+Apr,South,Monitor 27,Electronics,290,75400,11,25.77,-80.19,Miami
+Apr,East,Widget Pro,Electronics,1560,78000,4,39.28,-76.62,Baltimore
+Apr,West,Keyboard,Accessories,1670,25050,3,36.17,-115.14,Las Vegas
+May,North,Gadget X,Electronics,980,49000,7,45.52,-122.68,Portland
+May,South,Cable Set,Accessories,2950,14750,2,35.47,-97.52,Oklahoma City
+May,East,Monitor 27,Electronics,375,97500,10,40.71,-74.01,New York
+May,West,Widget Pro,Electronics,1420,71000,5,33.45,-112.07,Phoenix
+Jun,North,Keyboard,Accessories,2200,33000,3,43.05,-76.15,Syracuse
+Jun,South,Widget Pro,Electronics,1300,65000,5,32.79,-96.77,Dallas
+Jun,East,Gadget X,Electronics,860,43000,8,40.71,-74.01,New York
+Jun,West,Cable Set,Accessories,3200,16000,2,34.05,-118.24,Los Angeles
