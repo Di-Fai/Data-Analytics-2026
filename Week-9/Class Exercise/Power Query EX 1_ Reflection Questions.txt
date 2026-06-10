@@ -1,0 +1,23 @@
+1. Why is it important to click Transform Data instead of Load when connecting to a data source in Power BI?
+
+It is important to click Transform Data because it allows us to clean, organize, and prepare the data before loading it into the Power BI model. This helps ensure the data is accurate and ready for analysis. If we click Load immediately, any data issues will be brought into the report and may cause incorrect results.
+
+2. What is the Applied Steps pane and why is it useful? What would happen if you deleted a step?
+
+The Applied Steps pane keeps a record of every transformation performed in Power Query. It is useful because it allows us to review, modify, or troubleshoot changes made to the data. If a step is deleted, that transformation will no longer be applied, which may change the final dataset or cause later steps to fail.
+
+3. You removed the State column in Task 2. Can you think of a situation where keeping State might be valuable? What would you need to change in the exercise?
+
+Keeping the State column would be valuable if the report needed to analyze sales by state or compare performance across different states. To do this, I would not remove the State column during the cleaning process and would keep it available for filtering, grouping, and reporting.
+
+4. In Task 4, what problems could occur in your report if you left Quantity as a Text data type instead of Whole Number?
+
+If Quantity remained as a Text data type, Power BI would not be able to perform mathematical calculations correctly. Totals, averages, and other numerical analyses could produce errors or incorrect results. It could also prevent the column from being used properly in charts and visualizations.
+
+5. In Task 5, you created Sale Amount using a custom column formula. Why is it better to do this calculation in Power Query rather than in Excel before importing?
+
+Creating the Sale Amount column in Power Query makes the process automated and repeatable. Every time new data is loaded, the calculation is applied automatically without needing to update Excel manually. This reduces errors and keeps all transformation steps documented in one place.
+
+6. Look at the Applied Steps pane after completing all tasks. If a colleague sent you the same CSV with 100 new rows, what would you need to do to update the report?
+
+I would replace or update the source file and then click Refresh in Power BI. The Applied Steps would automatically run again on the new data, including the 100 additional rows. This allows the report to update without repeating all the transformation steps manually.

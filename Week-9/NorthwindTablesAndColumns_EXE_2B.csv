@@ -1,0 +1,85 @@
+﻿table_name,column_id,column_name,data_type,max_length,Primary Key?,Foreign Key?,Keep it?,New Column Name?,Measure Candidate?,Attribute Candidate?,Formatting Considerations?,Calculations?,Notes:
+Categories,1,CategoryID,int,4,Yes,No,Yes,CategoryID,No,No,None,"Count, filter, group, or define model relationship",Primary key; keep for relationships and unique records.
+Categories,2,CategoryName,nvarchar,30,No,No,Yes,Category,No,Yes,None,Group/filter reports by this field,Useful for reporting.
+Categories,3,Description,ntext,16,No,No,No,Description,No,No,N/A,N/A,Long text field; not useful for aggregation in this report.
+Categories,4,Picture,image,16,No,No,No,Picture,No,No,N/A,N/A,Binary image data; remove.
+Customers,1,CustomerID,nchar,10,No,No,Yes,CustomerID,No,No,None,"Count, filter, group, or define model relationship",Primary key; keep for relationships and unique records.
+Customers,2,CompanyName,nvarchar,80,No,No,Yes,Customer Company,No,Yes,None,Group/filter reports by this field,Useful for reporting.
+Customers,3,ContactName,nvarchar,60,No,No,Yes,Customer Contact,No,Yes,None,Group/filter reports by this field,Useful for reporting.
+Customers,4,ContactTitle,nvarchar,60,No,No,No,Customer Contact Title,No,No,N/A,N/A,"Contact info, not needed for analysis."
+Customers,5,Address,nvarchar,120,No,No,No,Customer Address,No,No,N/A,N/A,Street-level detail not needed; keep city/region/country instead.
+Customers,6,City,nvarchar,30,No,No,Yes,Customer City,No,Yes,None,Group/filter reports by this field,Useful for reporting.
+Customers,7,Region,nvarchar,30,No,No,Yes,Customer Region,No,Yes,None,Group/filter reports by this field,Useful for reporting.
+Customers,8,PostalCode,nvarchar,20,No,No,Yes,Customer Postal Code,No,Yes,None,Group/filter reports by this field,Useful for reporting.
+Customers,9,Country,nvarchar,30,No,No,Yes,Customer Country,No,Yes,None,Group/filter reports by this field,Useful for reporting.
+Customers,10,Phone,nvarchar,48,No,No,No,Customer Phone,No,No,N/A,N/A,Contact information; remove.
+Customers,11,Fax,nvarchar,48,No,No,No,Customer Fax,No,No,N/A,N/A,Contact information; remove.
+Employees,1,EmployeeID,int,4,Yes,No,Yes,EmployeeID,No,No,None,"Count, filter, group, or define model relationship",Primary key; keep for relationships and unique records.
+Employees,2,LastName,nvarchar,40,No,No,Yes,Employee Last Name,No,Yes,None,Group/filter reports by this field,Useful for reporting.
+Employees,3,FirstName,nvarchar,20,No,No,Yes,Employee First Name,No,Yes,None,Group/filter reports by this field,Useful for reporting.
+Employees,4,Title,nvarchar,60,No,No,Yes,Employee Title,No,Yes,None,Group/filter reports by this field,Useful for reporting.
+Employees,5,TitleOfCourtesy,nvarchar,50,No,No,No,Title of Courtesy,No,No,N/A,N/A,Not needed for analysis.
+Employees,6,BirthDate,datetime,8,No,No,Yes,Employee Birth Date,No,Yes,Date,Employee age calculation,Useful for reporting.
+Employees,7,HireDate,datetime,8,No,No,Yes,Employee Hire Date,No,Yes,Date,Employee tenure calculation,Useful for reporting.
+Employees,8,Address,nvarchar,120,No,No,No,Employee Address,No,No,N/A,N/A,Street-level detail not needed; keep city/region/country instead.
+Employees,9,City,nvarchar,30,No,No,Yes,Employee City,No,Yes,None,Group/filter reports by this field,Useful for reporting.
+Employees,10,Region,nvarchar,30,No,No,Yes,Employee Region,No,Yes,None,Group/filter reports by this field,Useful for reporting.
+Employees,11,PostalCode,nvarchar,20,No,No,Yes,Employee Postal Code,No,Yes,None,Group/filter reports by this field,Useful for reporting.
+Employees,12,Country,nvarchar,30,No,No,Yes,Employee Country,No,Yes,None,Group/filter reports by this field,Useful for reporting.
+Employees,13,HomePhone,nvarchar,48,No,No,No,Employee Home Phone,No,No,N/A,N/A,Contact information; remove.
+Employees,14,Extension,nvarchar,8,No,No,No,Employee Extension,No,No,N/A,N/A,Contact information; remove.
+Employees,15,Photo,image,16,No,No,No,Photo,No,No,N/A,N/A,Binary image data; remove.
+Employees,16,Notes,ntext,16,No,No,No,Notes,No,No,N/A,N/A,Long text field; remove.
+Employees,17,ReportsTo,int,4,No,Yes,Yes,Manager EmployeeID,No,No,None,"Count, filter, group, or define model relationship",FK references Employees.EmployeeID.
+Employees,18,PhotoPath,nvarchar,510,No,No,No,PhotoPath,No,No,N/A,N/A,Photo path is not needed for analysis.
+EmployeeTerritories,1,EmployeeID,int,4,Yes,Yes,Yes,EmployeeID,No,No,None,"Count, filter, group, or define model relationship",FK references Employees.EmployeeID.
+EmployeeTerritories,2,TerritoryID,nvarchar,40,Yes,Yes,Yes,TerritoryID,No,No,None,"Count, filter, group, or define model relationship",FK references Territories.TerritoryID.
+Order Details,1,OrderID,int,4,Yes,Yes,Yes,OrderID,No,No,None,"Count, filter, group, or define model relationship",FK references Orders.OrderID.
+Order Details,2,ProductID,int,4,Yes,Yes,Yes,ProductID,No,No,None,"Count, filter, group, or define model relationship",FK references Products.ProductID.
+Order Details,3,UnitPrice,money,8,No,No,Yes,Order Unit Price Amount,Yes,No,Currency,SUM/AVERAGE unit price; used with Quantity for Sales Amount,Useful for reporting.
+Order Details,4,Quantity,smallint,2,No,No,Yes,Order Quantity,Yes,No,Whole Number,SUM quantity sold; Quantity * Unit Price for Sales Amount,Useful for reporting.
+Order Details,5,Discount,real,4,No,No,Yes,Discount Percent,Yes,No,Percentage,Average discount; discount amount = Unit Price * Quantity * Discount,Useful for reporting.
+Orders,1,OrderID,int,4,Yes,No,Yes,OrderID,No,No,None,"Count, filter, group, or define model relationship",Primary key; keep for relationships and unique records.
+Orders,2,CustomerID,nchar,10,No,Yes,Yes,CustomerID,No,No,None,"Count, filter, group, or define model relationship",FK references Customers.CustomerID.
+Orders,3,EmployeeID,int,4,No,Yes,Yes,EmployeeID,No,No,None,"Count, filter, group, or define model relationship",FK references Employees.EmployeeID.
+Orders,4,OrderDate,datetime,8,No,No,Yes,Order Date,No,Yes,Date,Monthly/yearly order trends; order count by date,Useful for reporting.
+Orders,5,RequiredDate,datetime,8,No,No,Yes,Required Ship Date,No,Yes,Date,Compare required date to shipped date,Useful for reporting.
+Orders,6,ShippedDate,datetime,8,No,No,Yes,Shipped Date,No,Yes,Date,Average days to ship; on-time shipping analysis,Useful for reporting.
+Orders,7,ShipVia,int,4,No,Yes,Yes,ShipperID,No,No,None,"Count, filter, group, or define model relationship",FK references Shippers.ShipperID.
+Orders,8,Freight,money,8,No,No,Yes,Freight Amount,Yes,No,Currency,SUM/AVERAGE freight amount; compare shipping cost by country or shipper,Useful for reporting.
+Orders,9,ShipName,nvarchar,80,No,No,No,Ship Name,No,No,N/A,N/A,Shipping contact/name detail; not needed for aggregation.
+Orders,10,ShipAddress,nvarchar,120,No,No,No,Ship Address,No,No,N/A,N/A,Street-level detail not needed.
+Orders,11,ShipCity,nvarchar,30,No,No,Yes,Ship City,No,Yes,None,Group/filter reports by this field,Useful for reporting.
+Orders,12,ShipRegion,nvarchar,30,No,No,Yes,Ship Region,No,Yes,None,Group/filter reports by this field,Useful for reporting.
+Orders,13,ShipPostalCode,nvarchar,20,No,No,Yes,Ship Postal Code,No,Yes,None,Group/filter reports by this field,Useful for reporting.
+Orders,14,ShipCountry,nvarchar,30,No,No,Yes,Ship Country,No,Yes,None,Group/filter reports by this field,Useful for reporting.
+Products,1,ProductID,int,4,Yes,No,Yes,ProductID,No,No,None,"Count, filter, group, or define model relationship",Primary key; keep for relationships and unique records.
+Products,2,ProductName,nvarchar,80,No,No,Yes,Product,No,Yes,None,Group/filter reports by this field,Useful for reporting.
+Products,3,SupplierID,int,4,No,Yes,Yes,SupplierID,No,No,None,"Count, filter, group, or define model relationship",FK references Suppliers.SupplierID.
+Products,4,CategoryID,int,4,No,Yes,Yes,CategoryID,No,No,None,"Count, filter, group, or define model relationship",FK references Categories.CategoryID.
+Products,5,QuantityPerUnit,nvarchar,40,No,No,No,Quantity Per Unit,No,No,N/A,N/A,Not needed for current analysis.
+Products,6,UnitPrice,money,8,No,No,Yes,Product Unit Price Amount,Yes,No,Currency,Average product price; inventory value estimates,Useful for reporting.
+Products,7,UnitsInStock,smallint,2,No,No,Yes,Units In Stock,Yes,No,Whole Number,SUM inventory on hand,Useful for reporting.
+Products,8,UnitsOnOrder,smallint,2,No,No,Yes,Units On Order,Yes,No,Whole Number,SUM inventory on order,Useful for reporting.
+Products,9,ReorderLevel,smallint,2,No,No,Yes,Reorder Level,Yes,No,Whole Number,Compare stock to reorder level,Useful for reporting.
+Products,10,Discontinued,bit,1,No,No,Yes,Discontinued Flag,No,Yes,True/False,Filter active vs discontinued products,Useful for reporting.
+Region,1,RegionID,int,4,Yes,No,Yes,RegionID,No,No,None,"Count, filter, group, or define model relationship",Primary key; keep for relationships and unique records.
+Region,2,RegionDescription,nchar,100,No,No,Yes,Region,No,Yes,None,Group/filter reports by this field,Useful for reporting.
+Shippers,1,ShipperID,int,4,Yes,No,Yes,ShipperID,No,No,None,"Count, filter, group, or define model relationship",Primary key; keep for relationships and unique records.
+Shippers,2,CompanyName,nvarchar,80,No,No,Yes,Shipper,No,Yes,None,Group/filter reports by this field,Useful for reporting.
+Shippers,3,Phone,nvarchar,48,No,No,No,Shipper Phone,No,No,N/A,N/A,Contact information; remove.
+Suppliers,1,SupplierID,int,4,Yes,No,Yes,SupplierID,No,No,None,"Count, filter, group, or define model relationship",Primary key; keep for relationships and unique records.
+Suppliers,2,CompanyName,nvarchar,80,No,No,Yes,Supplier Company,No,Yes,None,Group/filter reports by this field,Useful for reporting.
+Suppliers,3,ContactName,nvarchar,60,No,No,Yes,Supplier Contact,No,Yes,None,Group/filter reports by this field,Useful for reporting.
+Suppliers,4,ContactTitle,nvarchar,60,No,No,No,Supplier Contact Title,No,No,N/A,N/A,"Contact info, not needed for analysis."
+Suppliers,5,Address,nvarchar,120,No,No,No,Supplier Address,No,No,N/A,N/A,Street-level detail not needed; keep city/region/country instead.
+Suppliers,6,City,nvarchar,30,No,No,Yes,Supplier City,No,Yes,None,Group/filter reports by this field,Useful for reporting.
+Suppliers,7,Region,nvarchar,30,No,No,Yes,Supplier Region,No,Yes,None,Group/filter reports by this field,Useful for reporting.
+Suppliers,8,PostalCode,nvarchar,20,No,No,Yes,Supplier Postal Code,No,Yes,None,Group/filter reports by this field,Useful for reporting.
+Suppliers,9,Country,nvarchar,30,No,No,Yes,Supplier Country,No,Yes,None,Group/filter reports by this field,Useful for reporting.
+Suppliers,10,Phone,nvarchar,48,No,No,No,Supplier Phone,No,No,N/A,N/A,Contact information; remove.
+Suppliers,11,Fax,nvarchar,48,No,No,No,Supplier Fax,No,No,N/A,N/A,Contact information; remove.
+Suppliers,12,HomePage,ntext,16,No,No,No,Supplier Home Page,No,No,N/A,N/A,Contact information/web text; remove.
+Territories,1,TerritoryID,nvarchar,40,No,No,Yes,TerritoryID,No,No,None,"Count, filter, group, or define model relationship",Primary key; keep for relationships and unique records.
+Territories,2,TerritoryDescription,nchar,100,No,No,Yes,Territory,No,Yes,None,Group/filter reports by this field,Useful for reporting.
+Territories,3,RegionID,int,4,Yes,Yes,Yes,RegionID,No,No,None,"Count, filter, group, or define model relationship",FK references Region.RegionID.

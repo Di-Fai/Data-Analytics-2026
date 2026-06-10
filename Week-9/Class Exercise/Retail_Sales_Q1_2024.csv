@@ -1,0 +1,51 @@
+TransactionID,Date,CustomerName,City,State,Category,Product,Quantity,UnitPrice,Discount,SalesRep,Region,Notes
+TXN-1023,01/02/2024,Blue Ridge LLC,Charlotte,NC,Electronics,Keyboard,12,54.99,0.0,Tom Brooks,Central,Standard delivery
+TXN-1027,01/04/2024,Sunrise Trading,Miami,FL,Furniture,Bookshelf,18,189.99,0.0,Maria Santos,West,N/A
+TXN-1036,01/05/2024,Sunrise Trading,Miami,FL,Furniture,File Cabinet,20,239.99,0.2,Maria Santos,West,Express shipping
+TXN-1005,01/07/2024,Redwood Partners,Sacramento,CA,Electronics,Webcam,5,79.99,0.0,Tom Brooks,Central,Loyalty reward
+TXN-1015,01/09/2024,Peak Solutions,Denver,CO,Office Supplies,Ballpoint Pens,13,3.49,0.15,Maria Santos,West,N/A
+TXN-1040,01/09/2024,Pinecrest Ltd,Atlanta,GA,Office Supplies,Desk Organizer,14,19.99,0.0,Chris Evans,North,N/A
+TXN-1003,01/10/2024,Redwood Partners,Sacramento,CA,Electronics,Keyboard,2,54.99,0.0,Maria Santos,West,New customer
+TXN-1048,01/11/2024,Peak Solutions,Denver,CO,Office Supplies,Sticky Notes,10,4.99,0.0,Maria Santos,West,Bulk discount applied
+TXN-1016,01/12/2024,Pinecrest Ltd,Atlanta,GA,Office Supplies,Stapler,9,12.99,0.0,Maria Santos,West,N/A
+TXN-1018,01/12/2024,Peak Solutions,Denver,CO,Electronics,USB Hub,1,24.99,0.2,Maria Santos,West,Bulk discount applied
+TXN-1035,01/13/2024,Blue Ridge LLC,Charlotte,NC,Office Supplies,Stapler,6,12.99,0.0,Aisha Patel,South,Bulk discount applied
+TXN-1025,01/17/2024,Lakeside Co,Minneapolis,MN,Office Supplies,Stapler,16,12.99,0.05,Jordan Lee,East,Standard delivery
+TXN-1020,01/18/2024,Lakeside Co,Minneapolis,MN,Furniture,Office Chair,18,299.99,0.15,Tom Brooks,Central,N/A
+TXN-1038,01/19/2024,Maple Leaf Corp,Toronto,ON,Electronics,USB Hub,9,24.99,0.05,Aisha Patel,South,Loyalty reward
+TXN-1026,01/20/2024,Harbor Group,Seattle,WA,Furniture,Bookshelf,16,189.99,0.0,Jordan Lee,East,N/A
+TXN-1037,01/21/2024,Maple Leaf Corp,Toronto,ON,Furniture,Standing Desk,1,449.99,0.0,Tom Brooks,Central,N/A
+TXN-1041,01/21/2024,Lakeside Co,Minneapolis,MN,Furniture,Office Chair,6,299.99,0.0,Tom Brooks,Central,Bulk discount applied
+TXN-1042,01/24/2024,Blue Ridge LLC,Charlotte,NC,Office Supplies,Desk Organizer,18,19.99,0.0,Maria Santos,West,Express shipping
+TXN-1009,01/25/2024,Harbor Group,Seattle,WA,Electronics,Keyboard,17,54.99,0.2,Maria Santos,West,Express shipping
+TXN-1044,01/26/2024,Pinecrest Ltd,Atlanta,GA,Electronics,Wireless Mouse,15,29.99,0.0,Chris Evans,North,Standard delivery
+TXN-1047,01/27/2024,Blue Ridge LLC,Charlotte,NC,Electronics,Bluetooth Speaker,13,49.99,0.2,Aisha Patel,South,Express shipping
+TXN-1022,01/28/2024,Crestview Inc,Chicago,IL,Electronics,Wireless Mouse,20,29.99,0.0,Aisha Patel,South,Standard delivery
+TXN-1024,01/28/2024,Harbor Group,Seattle,WA,Office Supplies,Ballpoint Pens,12,3.49,0.1,Tom Brooks,Central,N/A
+TXN-1033,01/28/2024,Maple Leaf Corp,Toronto,ON,Furniture,Monitor Stand,16,89.99,0.1,Aisha Patel,South,Standard delivery
+TXN-1029,01/30/2024,Crestview Inc,Chicago,IL,Furniture,Monitor Stand,8,89.99,0.05,Tom Brooks,Central,New customer
+TXN-1019,02/04/2024,Redwood Partners,Sacramento,CA,Electronics,USB Hub,18,24.99,0.1,Chris Evans,North,Express shipping
+TXN-1013,02/05/2024,Maple Leaf Corp,Toronto,ON,Furniture,Office Chair,10,299.99,0.2,Aisha Patel,South,Loyalty reward
+TXN-1031,02/06/2024,Summit Enterprises,Dallas,TX,Office Supplies,Ballpoint Pens,12,3.49,0.2,Aisha Patel,South,Express shipping
+TXN-1028,02/09/2024,Pinecrest Ltd,Atlanta,GA,Furniture,Bookshelf,12,189.99,0.0,Jordan Lee,East,Express shipping
+TXN-1001,02/12/2024,Blue Ridge LLC,Charlotte,NC,Office Supplies,Sticky Notes,18,4.99,0.0,Maria Santos,West,Express shipping
+TXN-1011,02/14/2024,Maple Leaf Corp,Toronto,ON,Office Supplies,Stapler,3,12.99,0.1,Maria Santos,West,Express shipping
+TXN-1032,02/17/2024,Peak Solutions,Denver,CO,Electronics,Wireless Mouse,16,29.99,0.05,Jordan Lee,East,Express shipping
+TXN-1014,02/20/2024,Crestview Inc,Chicago,IL,Electronics,Bluetooth Speaker,6,49.99,0.0,Chris Evans,North,N/A
+TXN-1050,02/21/2024,Sunrise Trading,Miami,FL,Electronics,USB Hub,14,24.99,0.15,Aisha Patel,South,Express shipping
+TXN-1021,02/22/2024,Redwood Partners,Sacramento,CA,Electronics,Bluetooth Speaker,2,49.99,0.05,Aisha Patel,South,Standard delivery
+TXN-1030,02/22/2024,Lakeside Co,Minneapolis,MN,Electronics,Keyboard,12,54.99,0.0,Maria Santos,West,Priority order
+TXN-1008,02/25/2024,Lakeside Co,Minneapolis,MN,Office Supplies,Desk Organizer,12,19.99,0.05,Chris Evans,North,New customer
+TXN-1045,02/27/2024,Summit Enterprises,Dallas,TX,Furniture,Monitor Stand,17,89.99,0.05,Chris Evans,North,Loyalty reward
+TXN-1010,02/28/2024,Blue Ridge LLC,Charlotte,NC,Furniture,Office Chair,17,299.99,0.15,Chris Evans,North,Bulk discount applied
+TXN-1046,02/28/2024,Pinecrest Ltd,Atlanta,GA,Furniture,File Cabinet,8,239.99,0.05,Tom Brooks,Central,N/A
+TXN-1039,03/06/2024,Harbor Group,Seattle,WA,Furniture,Bookshelf,18,189.99,0.15,Maria Santos,West,Bulk discount applied
+TXN-1007,03/12/2024,Summit Enterprises,Dallas,TX,Furniture,Office Chair,7,299.99,0.2,Jordan Lee,East,N/A
+TXN-1017,03/12/2024,Crestview Inc,Chicago,IL,Furniture,File Cabinet,13,239.99,0.05,Chris Evans,North,Bulk discount applied
+TXN-1006,03/13/2024,Summit Enterprises,Dallas,TX,Electronics,Keyboard,7,54.99,0.1,Maria Santos,West,Standard delivery
+TXN-1002,03/16/2024,Maple Leaf Corp,Toronto,ON,Furniture,Standing Desk,3,449.99,0.15,Jordan Lee,East,N/A
+TXN-1004,03/22/2024,Summit Enterprises,Dallas,TX,Electronics,Keyboard,13,54.99,0.0,Tom Brooks,Central,New customer
+TXN-1049,03/24/2024,Sunrise Trading,Miami,FL,Electronics,Webcam,15,79.99,0.05,Chris Evans,North,Standard delivery
+TXN-1034,03/26/2024,Lakeside Co,Minneapolis,MN,Office Supplies,Ballpoint Pens,6,3.49,0.15,Jordan Lee,East,Express shipping
+TXN-1043,03/29/2024,Lakeside Co,Minneapolis,MN,Furniture,Monitor Stand,4,89.99,0.0,Tom Brooks,Central,New customer
+TXN-1012,03/30/2024,Summit Enterprises,Dallas,TX,Furniture,File Cabinet,15,239.99,0.0,Chris Evans,North,Standard delivery

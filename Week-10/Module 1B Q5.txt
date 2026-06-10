@@ -1,0 +1,14 @@
+The three step names are:
+
+1- UnionedProductData
+This step combines the two tables:
+ContosoOnlineSales and ContosoRetailSales.
+It only keeps the Category and Product columns.
+
+2- DistinctRows
+This step removes duplicate rows from the combined table.
+So if the same Category/Product appears more than once, it keeps only one copy.
+
+3- AddKeyColumn
+This step adds a new column called ProductKey.
+It creates the ProductKey by joining Category and Product together with a | symbol.
