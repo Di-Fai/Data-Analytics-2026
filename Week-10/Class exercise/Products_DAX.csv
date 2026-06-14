@@ -1,0 +1,7 @@
+ProductID,ProductName,Category,UnitCost,ListPrice
+P001,Laptop Pro 15,Electronics,800.00,1200.00
+P002,Monitor 27 inch,Electronics,500.00,850.00
+P003,Wireless Mouse,Accessories,18.00,45.00
+P004,USB-C Hub,Accessories,55.00,120.00
+P005,Webcam HD,Accessories,28.00,60.00
+P006,External SSD 1TB,Storage,110.00,200.00
