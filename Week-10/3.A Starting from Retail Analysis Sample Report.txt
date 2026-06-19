@@ -1,0 +1,39 @@
+Q.3. Store Sales Overview, which is visualized through 4 charts 
+    -Pie chart for year sales by chain
+    -Clustered column chart for total sales variance by fiscal month and district manager 
+    -Azure maps for year sales by postal code and store type 
+    -Scatter chart for total sales Variance %, sales per Sq Ft 
+
+
+Q.4.A.  67 Stores in 5 districts 
+    B.  37 Stores in 4 Districts 
+
+
+Q.5.A. The Linseys chain has 4 new stores
+    B. $215856 (0.98%) of the total chain sales
+
+Q.6.A. Andrew Ma manages 10 stores in the FD-04 District 2 of which are new stores.
+    B. 
+
+Q.12.b. The total dollar value of February sales for the four managers can be seen when you place the cursor over the donut chart and it is shown as the highlighted field which reads $1639864(10.47%)
+
+
+Q.20. Why does Month make sense here? When would you want to use the Date Hierarchy instead?
+
+Month makes sense because the goal is to compare sales trends across months. Using Month creates a cleaner and easier-to-read chart that highlights seasonal patterns and overall trends.
+
+I would use Date Hierarchy when you need to drill down into the data at different levels, such as Year - Quarter - Month - Day, or when analyzing trends over multiple years.
+
+
+Q.21. What is the visual impact of making the y-axis shorter versus longer?
+Shorter y-axis (wide rectangle): Makes differences between data points appear smaller and the trend look flatter.
+Longer y-axis (more square or tall chart): Makes differences between data points appear larger and emphasizes changes in the data.
+
+This can influence the story your report tells. A taller chart can make growth or decline appear more dramatic, while a wider chart provides a more balanced view of the trend.
+
+
+Q.24. Why does it make sense to have two donut charts in this instance? What advantage does it present?
+
+Using two donut charts allows for a direct comparison between Fashions Direct and Lindseys.
+
+Two donut charts make it easier to compare how This Year Sales are distributed across territories for Fashions Direct and Lindseys. By viewing them side by side, it is easier to identify similarities and differences in sales performance, determine which territories contribute the most revenue for each chain, and gain insights that would be harder to see in a single combined chart.
